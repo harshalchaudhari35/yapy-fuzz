@@ -44,6 +44,7 @@ setup(
     version=read("VERSION").strip("\n"),
     description="Python wrapper for junegunn's fuzzyfinder (fzf)",
     long_description=LONG_DESC,
+    long_description_content_type="text/markdown",
     author="Harshal Chaudhari",
     license="MIT",
     author_email="harshal.chaudhary@gmail.com",
