@@ -1,0 +1,5 @@
+docker run -d -p 127.0.0.1:5432:5432 --name pg-ds-latest aa8y/postgres-dataset:latest
+
+# access db
+# docker exec -it pg-ds-<tag> psql -d <db_name>
+docker exec -it pg-ds-latest psql -d dellstore
